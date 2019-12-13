@@ -16,6 +16,6 @@ class Diamond
     end
 
     top_bottom = top_to_mid_half[0..-2].reverse # remove middle letter (last element) then reverse order
-	top_to_mid_half.concat(top_bottom).flatten.flatten.join("\n") << "\n" # top + bottom ; remove duplicated array ; one line for each letter   
+	  top_to_mid_half.concat(top_bottom).flatten.flatten.join("\n") << "\n" # top + bottom ; remove duplicated array ; one line for each letter   
   end
 end
